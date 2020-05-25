@@ -1,0 +1,26 @@
+
+
+
+<!-- Default bg white 
+    Edit bg-green-3
+-->  
+<nav class="fixed-top navbar navbar-light  navbar-expand moodle-has-zindex bg-green-3" aria-label="{{#str}}navigation{{/str}}">
+ <!--
+        {{# output.should_display_navbar_logo }}
+            <span class="logo d-none d-sm-inline">
+                <img src="{{output.get_compact_logo_url}}" alt="{{sitename}}">
+            </span>
+        {{/ output.should_display_navbar_logo }}
+        <span class="site-name d-none d-md-inline">{{{ sitename }}}</span>
+
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                {{{ output.secure_login_info }}}
+            </li>
+        </ul>
+        -->
+      <a href={{{config.wwwroot}}}> 
+        <span class="logo d-none d-sm-inline">
+        <img src="../theme/canary/pix/logo.png">
+        </span>
+</nav>

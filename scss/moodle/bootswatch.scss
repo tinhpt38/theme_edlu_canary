@@ -1,0 +1,9 @@
+// Adjustments to make bootstrap 4 work better with some variables from bootstrap 3 bootswatches
+
+$navbar-height: 100px !default;
+$nvar-color: #cad459;
+
+.navbar {
+    max-height: $navbar-height;
+    background-color: $nvar-color;
+}
